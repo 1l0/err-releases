@@ -1,4 +1,6 @@
-## err 0.12.0
+# Changelog
+
+## [0.12.0] - 2026-11-04
 
 First public Android release.
 

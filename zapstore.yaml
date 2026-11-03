@@ -1,15 +1,28 @@
 repository: https://github.com/1l0/err-releases
+release_filter: '^v[0-9]+\.[0-9]+\.[0-9]+$'
+match: '\.apk$'
 
 name: err
 summary: A local-first worldbuilding & narrative editor.
 description: |
-  err is a local-first, structured editor for worldbuilding and narrative
-  work. Items form one graph, Tree Views are saved starting points, and sync
-  is end-to-end encrypted.
+  **err** is a local-first editor for worldbuilding and narrative work.
+
+  - Items form one graph; multiple parents and typed links keep related
+    material together.
+  - Tree Views are saved starting points into that graph.
+  - Properties, computed values and undo/redo are part of the Item workflow.
+  - QR sync moves changes between devices with end-to-end encryption.
+  - Runs as a Web PWA and a native Android app.
+
+  The vault stays on your device. Learn more at <https://err.tokyo>.
 license: Apache-2.0
 website: https://err.tokyo
-tags: [writing, notes, productivity]
+tags: [writing, worldbuilding, notes, productivity]
 
 icon: ./icon-512.png
+# Add light/dark screenshots once captured:
+# images:
+#   - ./screenshots/err-light.png
+#   - ./screenshots/err-dark.png
 release_notes: ./release-notes.md
 metadata_sources: []
