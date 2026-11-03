@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.13.0] - 2026-11-04
+
+- An empty vault now opens on the tree pane, so the create action is the first
+  thing visible.
+- The web tree pane links to the published ZapStore listing.
+- Android downloads are now split per ABI (arm64-v8a, armeabi-v7a, x86_64), so
+  the download is smaller.
+
 ## [0.12.0] - 2026-11-04
 
 First public Android release.
