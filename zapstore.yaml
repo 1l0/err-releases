@@ -1,5 +1,7 @@
 repository: https://github.com/1l0/err-releases
 release_filter: '^v[0-9]+\.[0-9]+\.[0-9]+$'
+# v0.12.0 has one universal APK. For split-per-ABI releases attach the
+# per-target APKs and change this to 'arm64.*\.apk$' so zsp picks arm64.
 match: '\.apk$'
 
 name: err
