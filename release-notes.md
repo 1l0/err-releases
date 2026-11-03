@@ -1,4 +1,4 @@
-## err 1.0.0
+## err 0.12.0
 
 First public Android release.
 
