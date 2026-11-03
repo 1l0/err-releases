@@ -1,0 +1,15 @@
+repository: https://github.com/1l0/err-releases
+
+name: err
+summary: A local-first worldbuilding & narrative editor.
+description: |
+  err is a local-first, structured editor for worldbuilding and narrative
+  work. Items form one graph, Tree Views are saved starting points, and sync
+  is end-to-end encrypted.
+license: Apache-2.0
+website: https://err.tokyo
+tags: [writing, notes, productivity]
+
+icon: ./icon-512.png
+release_notes: ./release-notes.md
+metadata_sources: []
