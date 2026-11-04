@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.15.0] - 2026-11-04
+
+- Deleting a parent from the tree now also deletes the descendants that have no
+  other live parent, in one undo step. When several Items go, a confirmation
+  lists them; it also warns when Views rooted in them are deleted too.
+- The properties pane's Delete item still deletes only that Item; its children
+  are promoted to the Forest.
+- Non-root tree rows now offer Remove from here, which removes one placement
+  without deleting the Item.
+
 ## [0.14.0] - 2026-11-04
 
 - A write can no longer change a variable's type: the editor offers only the
