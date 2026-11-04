@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.14.0] - 2026-11-04
+
+- A write can no longer change a variable's type: the editor offers only the
+  variable's own type and the operators it supports, and the engine enforces
+  the same rule for synced and MCP changes.
+- A write whose target Item was deleted no longer keeps its variable in the
+  computed values; the stale write is flagged in the properties pane so it can
+  be removed.
+- The editor now shows the next sibling at the end of the body, for quick
+  navigation without going back to the tree.
+- Japanese text on the web uses Noto Sans JP glyphs instead of the browser's
+  Chinese fallback.
+
 ## [0.13.0] - 2026-11-04
 
 - An empty vault now opens on the tree pane, so the create action is the first
