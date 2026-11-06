@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.17.0] - 2026-11-07
+
+- The body editor starts at one line when empty and grows as you type, instead
+  of always reserving ten lines.
+- A word count appears below the body, aligned with the right edge of the
+  editor. It is hidden for an empty body and in preview.
+- Link and variable suggestions stay tappable when the body is short, and the
+  caret keeps its line while the suggestion card is open.
+
+## [0.16.0] - 2026-11-06
+
+- Web builds ask the browser for persistent storage and warn in the header when
+  the vault can be evicted, with a one-click install prompt where available.
+- Phone-sized web browsers now start QR sync on the show/scan choice, and can
+  scan another device's code without first creating a room.
+- Search results can be driven from the keyboard: Down/Up move the highlighted
+  row, Enter opens it and Esc closes the search.
+- The editor's [[link]] and {{variable}} suggestions follow the caret line, and
+  Esc cancels the open construct. Japanese IME candidates now stay by the
+  caret on the web.
+- A light swipe turns the page in the narrow layout.
+- iOS: creating an Item focuses its title immediately, and search input is
+  fixed.
+
 ## [0.15.0] - 2026-11-04
 
 - Deleting a parent from the tree now also deletes the descendants that have no
