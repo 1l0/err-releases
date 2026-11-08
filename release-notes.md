@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.18.0] - 2026-11-09
+
+- The editor footer now shows a character count instead of a word count.
+- Large vaults load, expand and search much faster: a reload no longer reads
+  every note body, tree levels load in one request, and search runs in the
+  engine with a short snippet around the match.
+- Web: the OPFS storage-usage repair no longer leaves DevTools reporting an
+  enormous size, and release builds log when a repair runs.
+
 ## [0.17.0] - 2026-11-07
 
 - The body editor starts at one line when empty and grows as you type, instead
