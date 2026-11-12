@@ -1,4 +1,4 @@
-# err releases
+# err Android distribution
 
 Public distribution for the **err** Android app. The application source
 repository is private; this repository only hosts release artifacts and the
@@ -12,10 +12,10 @@ ZapStore metadata.
 Each APK is signed with the same release certificate used for the ZapStore
 listing. Do not install builds from other sources.
 
-## Permissions and dependencies
+## Camera and QR scanning
 
-- **Camera:** used only to scan a pairing QR code in the encrypted QR sync
-  flow. err does not take photos or record video.
-- The QR scanner is the Flutter `mobile_scanner` plugin, which uses ML Kit
-  barcode scanning (`com.google.mlkit`). Decoding runs on the device; camera
-  frames are not sent anywhere.
+err uses the camera only to scan a pairing QR code in the encrypted QR sync
+flow. It does not take photos or record video. The scanner is the Flutter
+`mobile_scanner` plugin, which uses ML Kit barcode scanning
+(`com.google.mlkit`). Decoding runs on the device; camera frames are not sent
+anywhere.
