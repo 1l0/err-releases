@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.19.0] - 2026-11-13
+
+- The bottom of the editor now shows backlinks: every Item whose body links to
+  the current Item, with a count, clickable source rows, and nearest/farthest
+  tree-distance sorting.
+- Selecting an Item from a link, search or backlink expands collapsed ancestors
+  and centers the row in the tree.
+- Collapsed tree branches are remembered per device across restarts.
+- Web: the Install Android App link moved from the tree pane to the bottom of
+  the properties pane.
+
 ## [0.18.0] - 2026-11-09
 
 - The editor footer now shows a character count instead of a word count.
