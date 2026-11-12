@@ -11,7 +11,8 @@ description: |
     material together.
   - Tree Views are saved starting points into that graph.
   - Properties, computed values and undo/redo are part of the Item workflow.
-  - QR sync moves changes between devices with end-to-end encryption.
+  - Scan a pairing QR code with the camera to connect two devices; changes
+    then move between them with end-to-end encryption.
   - Runs as a Web PWA and a native Android app.
 
   The vault stays on your device. Learn more at <https://err.tokyo>.
