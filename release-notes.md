@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.19.1] - 2026-11-13
+
+- Android: the store listing now explains that camera access is only for
+  scanning a pairing QR code, and that the QR scanner uses ML Kit. No app
+  behavior changed.
+
 ## [0.19.0] - 2026-11-13
 
 - The bottom of the editor now shows backlinks: every Item whose body links to
