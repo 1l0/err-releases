@@ -11,3 +11,11 @@ ZapStore metadata.
 
 Each APK is signed with the same release certificate used for the ZapStore
 listing. Do not install builds from other sources.
+
+## Permissions and dependencies
+
+- **Camera:** used only to scan a pairing QR code in the encrypted QR sync
+  flow. err does not take photos or record video.
+- The QR scanner is the Flutter `mobile_scanner` plugin, which uses ML Kit
+  barcode scanning (`com.google.mlkit`). Decoding runs on the device; camera
+  frames are not sent anywhere.
