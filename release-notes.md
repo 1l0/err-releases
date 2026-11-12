@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.19.2] - 2026-11-13
+
+- Android: the store listing's camera disclosure is now visible to ZapStore's
+  privacy analysis. No app behavior changed.
+
 ## [0.19.1] - 2026-11-13
 
 - Android: the store listing now explains that camera access is only for
