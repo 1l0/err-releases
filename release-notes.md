@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.20.0] - 2026-11-13
+
+- A user manual now ships with the web app at `/docs/`, in English and
+  Japanese. Its changelog page is generated from these release notes.
+- Keyboard: undo and redo moved to `Option/Alt+Z` and `Shift+Option/Alt+Z`,
+  and `Option/Alt+←` / `Option/Alt+→` step back and forward. `Cmd/Ctrl+Z`
+  stays with the focused text field, which is why it never reached the app.
+- Web: the properties pane's footer now offers `Android` and `Manual` links,
+  both opening in a new tab. Settings gained `Read Manual` and, on the web,
+  `Install Android App`.
+- Settings: the dialog scrolls when the window is too short for its content.
+
 ## [0.19.3] - 2026-11-13
 
 - Wide layout: the header now sits above the editor pane only. The tree and
