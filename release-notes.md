@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.19.3] - 2026-11-13
+
+- Wide layout: the header now sits above the editor pane only. The tree and
+  properties panes reach the top of the window and the header no longer spans
+  the whole screen.
+- The tree's view selector shows the Forest as a forest icon.
+- Backlinks: the sort button's arrow now points the way the list is ordered,
+  and the redundant per-row arrow is gone.
+
 ## [0.19.2] - 2026-11-13
 
 - Android: the store listing's camera disclosure is now visible to ZapStore's
