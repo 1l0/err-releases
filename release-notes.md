@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.20.1] - 2026-11-15
+
+- The editor's last row now offers `+ ›` when the current Item is the last of
+  its level. It creates a new Item at the end of that level, under the same
+  parent (or in the Forest for a root), and opens it with the title focused.
+- The tree scrolls to the Item you open, so a new Item at the end of a long
+  list is in view straight away. Creating an Item no longer reloads every
+  expanded branch of the tree.
+- The Delete buttons in both delete confirmations use the danger colour.
+
 ## [0.20.0] - 2026-11-13
 
 - A user manual now ships with the web app at `/docs/`, in English and
