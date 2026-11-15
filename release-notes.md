@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.20.2] - 2026-11-15
+
+- Typing `[[` in the middle of a sentence no longer treats the rest of the
+  text as a half-typed link. The closing `]]` goes in with the opening `[[`,
+  a link can never span a line break or another link, and text that is not a
+  finished link is no longer painted red.
+- Cancelling a construct (`Esc`, tapping elsewhere, moving the caret out)
+  removes only the brackets the editor inserted; the text typed between them
+  stays. Before, cancelling deleted the sentence that followed the `[[`.
+- One backspace on a half-typed `[[` no longer deletes the prose and the next
+  link in a single step.
+- A link typed by hand is stored exactly as typed while it does not resolve,
+  so whitespace and line breaks inside the brackets are kept.
+
 ## [0.20.1] - 2026-11-15
 
 - The editor's last row now offers `+ ›` when the current Item is the last of
